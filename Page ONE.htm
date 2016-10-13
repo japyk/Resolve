@@ -1,0 +1,63 @@
+<html>
+ <br>
+   <h1><font face="Helvetica">RESOLVE INFO DUMP</h>
+ <br></br>
+<button type="submit" name="Dump">Dump</button>
+<style>
+ p {
+	font-family: "Helvetica"; font-size: 11px;
+}
+ .dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+	padding: 6px 8px;
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 10px 12px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {background-color: #f1f1f1}
+
+
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+p { cursor: pointer; }
+
+</style>
+
+<div class="dropdown">
+	<button>Select Data Type</button>
+	 <div class="dropdown-content">
+	  <p>CSE Engineer</p>
+	  <p>EME Manger</p>
+	  <p>Backup Manager</p>
+	  <p>Backup Engineer</p>
+	  <p>Title</p>						
+	</div>
+</div>
+
+<br>
+<button type="submit" name="Get Info">Get</button>
+<br>
